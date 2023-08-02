@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"
+    />
+  </head>
+
+  <body>
+    <h1
+      style="
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        font-size: 2.5rem;
+        color: white;
+      "
+    >
+      Typing Speed
+    </h1>
+    <div class="container">
+      <i class="fas fa-clock" id="time"><span>30</span></i>
+      <input type="text" class="type-input" style="opacity: 0.01" />
+      <div class="texts">
+        <p></p>
+      </div>
+      <i class="fa fa-refresh" id="refresh"></i>
+
+      <ul class="result"></ul>
+    </div>
+  </body>
+  <script src="paragraph.js"></script>
+  <script src="script.js"></script>
+</html>

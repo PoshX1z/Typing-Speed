@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292929;
+}
+
+#time {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+    color: lightblue;
+}
+
+.container {
+    position: absolute;
+    max-width: 70%;
+    top: 45%;
+}
+
+.texts p span {
+    opacity: 0.3;
+}
+
+.texts {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.texts p span.correct {
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+
+.texts p span.incorrect {
+    opacity: 1;
+    color: red;
+}
+
+#refresh:hover {
+    filter: brightness(0.7);
+}
+
+#refresh:active {
+    filter: brightness(0.5);
+}
+
+#refresh {
+    font-size: 40px;
+    color: lightcyan;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
